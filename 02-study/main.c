@@ -85,8 +85,18 @@ void test2(){
      */
 }
 
+/* 逗号运算符 (..., ..., ...)
+ * 例如 A = (B, C, D)
+ * 先运行表达式B,再运行表达式C,最后运行表达式D, 最终A的值为表达式D的值
+ */
+void test3(){
+    int a = 10, b = 20, c = 0;
+    c = (a += 10, b += 10, a + b);
+    printf("a = %d b = %d c = %d \n", a,b,c);
+}
+
 int main()
 {
-    test2();
+    test3();
     return 0;
 }
