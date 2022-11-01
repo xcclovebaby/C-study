@@ -1,6 +1,14 @@
 #include <stdio.h> //头文件包含,一定要有
 
-/* qt下载地址: https://download.qt.io/archive/qt/5.9/5.9.0 */
+/** ==========================
+ * qt下载地址: https://download.qt.io/archive/qt/5.9/5.9.0
+ * 学习目录：
+ * 1.Hello World
+ * 2.数据类型相关关键字
+ * 3.存储相关关键字
+ * 4.格式化输出字符
+ *  ==========================
+ */
 
 void helloWorld(){ //这是书写的第一个函数
     printf("Hello World!\n"); //输出hello world
